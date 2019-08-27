@@ -10,7 +10,7 @@ const NavMenu = () => {
                 <Link className="ant-btn ant-btn-link" to="/article/edit"> <Icon type="edit"/> 写文章</Link>
             </Menu.Item>
             <Menu.Item>
-                <Link className="ant-btn ant-btn-link" to="/article/fol"> <Icon type="diff"/>文件夹</Link>
+                <Link className="ant-btn ant-btn-link" to="/article/fol"> <Icon type="diff"/> 文件夹</Link>
             </Menu.Item>
 
         </Menu>

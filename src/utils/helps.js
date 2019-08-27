@@ -1,6 +1,7 @@
-class help {
+class helps {
+
 
 
 }
 
-export default help;
+export default helps;

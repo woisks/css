@@ -1,8 +1,8 @@
-import homeState from './states'
-import { ADD_TODO, TOGGLE_TODO } from "./types";
+import initState from '../states'
+import { ADD_TODO, TOGGLE_TODO } from "../types";
 
 
-export default function(state = homeState, action) {
+export default function(state = initState, action) {
     switch (action.type) {
       case ADD_TODO: {
         const { id, content } = action.payload;
