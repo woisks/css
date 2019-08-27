@@ -1,0 +1,116 @@
+/*******************************
+           Breadcrumb
+*******************************/
+
+.sk.breadcrumb {
+    line-height: 1;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.sk.breadcrumb:first-child {
+    margin-top: 0;
+}
+
+.sk.breadcrumb:last-child {
+    margin-bottom: 0;
+}
+
+
+/*******************************
+          Content
+*******************************/
+
+
+/* Divider */
+.sk.breadcrumb .divider {
+    display: inline-block;
+    opacity: 0.7;
+    margin: 0 0.21428571rem 0;
+    font-size: 0.92857143em;
+    color: rgba(0, 0, 0, 0.4);
+    vertical-align: baseline;
+}
+
+/* Link */
+.sk.breadcrumb a {
+    color: #4183C4;
+}
+
+.sk.breadcrumb a:hover {
+    color: #1e70bf;
+}
+
+/* Icon Divider */
+.sk.breadcrumb .icon.divider {
+    font-size: 0.85714286em;
+    vertical-align: baseline;
+}
+
+/* Section */
+.sk.breadcrumb a.section {
+    cursor: pointer;
+}
+
+.sk.breadcrumb .section {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Loose Coupling */
+.sk.breadcrumb.segment {
+    display: inline-block;
+    padding: 0.78571429em 1em;
+}
+
+
+/*******************************
+            States
+*******************************/
+
+.sk.breadcrumb .active.section {
+    font-weight: bold;
+}
+
+
+/*******************************
+           Variations
+*******************************/
+
+.sk.mini.breadcrumb {
+    font-size: 0.78571429rem;
+}
+
+.sk.tiny.breadcrumb {
+    font-size: 0.85714286rem;
+}
+
+.sk.small.breadcrumb {
+    font-size: 0.92857143rem;
+}
+
+.sk.breadcrumb {
+    font-size: 1rem;
+}
+
+.sk.large.breadcrumb {
+    font-size: 1.14285714rem;
+}
+
+.sk.big.breadcrumb {
+    font-size: 1.28571429rem;
+}
+
+.sk.huge.breadcrumb {
+    font-size: 1.42857143rem;
+}
+
+.sk.massive.breadcrumb {
+    font-size: 1.71428571rem;
+}
+
+
+
+

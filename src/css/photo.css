@@ -1,0 +1,155 @@
+
+.photo {
+    display: block;
+    position: relative;
+}
+
+.photo img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.photo img.is-rounded {
+    border-radius: 290486px;
+}
+
+.photo.is-square img,
+.photo.is-square .has-ratio, .photo.is-1by1 img,
+.photo.is-1by1 .has-ratio, .photo.is-5by4 img,
+.photo.is-5by4 .has-ratio, .photo.is-4by3 img,
+.photo.is-4by3 .has-ratio, .photo.is-3by2 img,
+.photo.is-3by2 .has-ratio, .photo.is-5by3 img,
+.photo.is-5by3 .has-ratio, .photo.is-16by9 img,
+.photo.is-16by9 .has-ratio, .photo.is-2by1 img,
+.photo.is-2by1 .has-ratio, .photo.is-3by1 img,
+.photo.is-3by1 .has-ratio, .photo.is-4by5 img,
+.photo.is-4by5 .has-ratio, .photo.is-3by4 img,
+.photo.is-3by4 .has-ratio, .photo.is-2by3 img,
+.photo.is-2by3 .has-ratio, .photo.is-3by5 img,
+.photo.is-3by5 .has-ratio, .photo.is-9by16 img,
+.photo.is-9by16 .has-ratio, .photo.is-1by2 img,
+.photo.is-1by2 .has-ratio, .photo.is-1by3 img,
+.photo.is-1by3 .has-ratio {
+    height: 100%;
+    width: 100%;
+}
+
+.photo.is-square, .photo.is-1by1 {
+    padding-top: 100%;
+}
+
+.photo.is-5by4 {
+    padding-top: 80%;
+}
+
+.photo.is-4by3 {
+    padding-top: 75%;
+}
+
+.photo.is-3by2 {
+    padding-top: 66.6666%;
+}
+
+.photo.is-5by3 {
+    padding-top: 60%;
+}
+
+.photo.is-16by9 {
+    padding-top: 56.25%;
+}
+
+.photo.is-2by1 {
+    padding-top: 50%;
+}
+
+.photo.is-3by1 {
+    padding-top: 33.3333%;
+}
+
+.photo.is-4by5 {
+    padding-top: 125%;
+}
+
+.photo.is-3by4 {
+    padding-top: 133.3333%;
+}
+
+.photo.is-2by3 {
+    padding-top: 150%;
+}
+
+.photo.is-3by5 {
+    padding-top: 166.6666%;
+}
+
+.photo.is-9by16 {
+    padding-top: 177.7777%;
+}
+
+.photo.is-1by2 {
+    padding-top: 200%;
+}
+
+.photo.is-1by3 {
+    padding-top: 300%;
+}
+
+.photo.is-16x16 {
+    height: 16px;
+    width: 16px;
+}
+
+.photo.is-24x24 {
+    height: 24px;
+    width: 24px;
+}
+
+.photo.is-32x32 {
+    height: 32px;
+    width: 32px;
+}
+
+.photo.is-48x48 {
+    height: 48px;
+    width: 48px;
+}
+
+.photo.is-64x64 {
+    height: 64px;
+    width: 64px;
+}
+
+.photo.is-96x96 {
+    height: 96px;
+    width: 96px;
+}
+
+.photo.is-128x128 {
+    height: 128px;
+    width: 128px;
+}
+
+.is-overlay, .photo.is-square img,
+.photo.is-square .has-ratio, .photo.is-1by1 img,
+.photo.is-1by1 .has-ratio, .photo.is-5by4 img,
+.photo.is-5by4 .has-ratio, .photo.is-4by3 img,
+.photo.is-4by3 .has-ratio, .photo.is-3by2 img,
+.photo.is-3by2 .has-ratio, .photo.is-5by3 img,
+.photo.is-5by3 .has-ratio, .photo.is-16by9 img,
+.photo.is-16by9 .has-ratio, .photo.is-2by1 img,
+.photo.is-2by1 .has-ratio, .photo.is-3by1 img,
+.photo.is-3by1 .has-ratio, .photo.is-4by5 img,
+.photo.is-4by5 .has-ratio, .photo.is-3by4 img,
+.photo.is-3by4 .has-ratio, .photo.is-2by3 img,
+.photo.is-2by3 .has-ratio, .photo.is-3by5 img,
+.photo.is-3by5 .has-ratio, .photo.is-9by16 img,
+.photo.is-9by16 .has-ratio, .photo.is-1by2 img,
+.photo.is-1by2 .has-ratio, .photo.is-1by3 img,
+.photo.is-1by3 .has-ratio {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
