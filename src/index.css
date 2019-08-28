@@ -1,15 +1,13 @@
 @import '~antd/dist/antd.css';
-@import 'css/tag.css';
 @import 'css/comment.css';
 @import 'css/feed.css';
 @import 'css/breadcrumb.css';
-@import 'css/level.css';
-@import 'css/nav.css';
-@import 'css/column.css';
+/*diy*/
+@import 'css/tag.css';
 @import 'css/photo.css';
 @import 'css/animate.css';
 @import 'css/help.css';
-@import 'css/box.css';
+@import 'css/flex.css';
 
 
 .container {
@@ -29,4 +27,5 @@
     width: 370px;
     height: 370px;
     padding: 40px;
+
 }

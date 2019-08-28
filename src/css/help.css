@@ -79,6 +79,19 @@
     display: block !important;
 }
 
+.is-clearfix::after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.is-pulled-left {
+    float: left !important;
+}
+
+.is-pulled-right {
+    float: right !important;
+}
 
 .has-text-white {
     color: white !important;
