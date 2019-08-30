@@ -1,39 +1,40 @@
 .animate-rotate {
-    -webkit-animation: rotate 2s infinite;
     animation: rotate 4s infinite;
-}
-
-@-webkit-keyframes rotate {
-    0% {
-        -moz-transform: rotate(0deg);
-    }
-    50% {
-        -moz-transform: rotate(180deg);
-    }
-    100% {
-        -moz-transform: rotate(360deg);
-    }
 }
 
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
     }
-    50% {
-        transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-    }
+    /*30% {*/
+    /*    transform: rotate(180deg);*/
+    /*    -ms-transform: rotate(180deg);*/
+    /*    -moz-transform: rotate(180deg);*/
+    /*    -o-transform: rotate(180deg);*/
+    /*}*/
     100% {
-        transform: rotate(360deg);
-        -ms-transform: rotate(360deg); /* IE 9 */
-        -moz-transform: rotate(360deg); /* Firefox */
-        -o-transform: rotate(360deg);
+        transform: rotate(359deg);
+
     }
 }
 
 
+button:active {
+    animation: button-click .5s ease-in;
+}
+
+
+@keyframes button-click {
+    0% {
+        opacity: 0
+    }
+
+
+    50% {
+        opacity: 0.5
+    }
+
+    100% {
+        opacity: 0
+    }
+}

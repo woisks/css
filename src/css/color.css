@@ -1,0 +1,144 @@
+.is-color-black {
+    color: hsl(0, 0%, 4%)
+}
+
+.is-color-black-bis {
+    color: hsl(0, 0%, 7%)
+}
+
+.is-color-black-ter {
+    color: hsl(0, 0%, 14%)
+}
+
+.is-color-grey-darker {
+    color: hsl(0, 0%, 21%)
+}
+
+.is-color-grey-dark {
+    color: hsl(0, 0%, 29%)
+}
+
+.is-color-grey {
+    color: hsl(0, 0%, 48%)
+}
+
+.is-color-grey-light {
+    color: hsl(0, 0%, 71%)
+}
+
+.is-color-grey-lighter {
+    color: hsl(0, 0%, 86%)
+}
+
+.is-color-white-ter {
+    color: hsl(0, 0%, 96%)
+}
+
+.is-color-white-bis {
+    color: hsl(0, 0%, 98%)
+}
+
+.is-color-white {
+    color: hsl(0, 0%, 100%)
+}
+
+.is-color-orange {
+    color: hsl(14, 100%, 53%)
+}
+
+.is-color-yellow {
+    color: hsl(48, 100%, 67%)
+}
+
+.is-color-green {
+    color: hsl(141, 71%, 48%)
+}
+
+.is-color-cyan {
+    color: hsl(204, 86%, 53%)
+}
+
+.is-color-blue {
+    color: hsl(217, 71%, 53%)
+}
+
+.is-color-purple {
+    color: hsl(271, 100%, 71%)
+}
+
+.is-color-red {
+    color: hsl(348, 100%, 61%)
+}
+
+.is-background-color-black {
+    background-color: hsl(0, 0%, 4%)
+}
+
+.is-background-color-black-bis {
+    background-color: hsl(0, 0%, 7%)
+}
+
+.is-background-color-black-ter {
+    background-color: hsl(0, 0%, 14%)
+}
+
+.is-background-color-grey-darker {
+    background-color: hsl(0, 0%, 21%)
+}
+
+.is-background-color-grey-dark {
+    background-color: hsl(0, 0%, 29%)
+}
+
+.is-background-color-grey {
+    background-color: hsl(0, 0%, 48%)
+}
+
+.is-background-color-grey-light {
+    background-color: hsl(0, 0%, 71%)
+}
+
+.is-background-color-grey-lighter {
+    background-color: hsl(0, 0%, 86%)
+}
+
+.is-background-color-white-ter {
+    background-color: hsl(0, 0%, 96%)
+}
+
+.is-background-color-white-bis {
+    background-color: hsl(0, 0%, 98%)
+}
+
+.is-background-color-white {
+    background-color: hsl(0, 0%, 100%)
+}
+
+.is-background-color-orange {
+    background-color: hsl(14, 100%, 53%)
+}
+
+.is-background-color-yellow {
+    background-color: hsl(48, 100%, 67%)
+}
+
+.is-background-color-green {
+    background-color: hsl(141, 71%, 48%)
+}
+
+.is-background-color-cyan {
+    background-color: hsl(204, 86%, 53%)
+}
+
+.is-background-color-blue {
+    background-color: hsl(217, 71%, 53%)
+}
+
+.is-background-color-purple {
+    background-color: hsl(271, 100%, 71%)
+}
+
+.is-background-color-red {
+    background-color: hsl(348, 100%, 61%)
+}
+

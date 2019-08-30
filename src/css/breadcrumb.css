@@ -1,116 +1,81 @@
-/*******************************
-           Breadcrumb
-*******************************/
 
-.sk.breadcrumb {
-    line-height: 1;
-    display: inline-block;
-    margin: 0;
-    vertical-align: middle;
+.breadcrumb {
+    white-space: nowrap;
 }
 
-.sk.breadcrumb:first-child {
-    margin-top: 0;
+.breadcrumb a {
+    align-items: center;
+    color: #3273dc;
+    display: flex;
+    justify-content: center;
+    padding: 0 0.75em;
 }
 
-.sk.breadcrumb:last-child {
-    margin-bottom: 0;
+.breadcrumb a:hover {
+    color: #363636;
 }
 
-
-/*******************************
-          Content
-*******************************/
-
-
-/* Divider */
-.sk.breadcrumb .divider {
-    display: inline-block;
-    opacity: 0.7;
-    margin: 0 0.21428571rem 0;
-    font-size: 0.92857143em;
-    color: rgba(0, 0, 0, 0.4);
-    vertical-align: baseline;
+.breadcrumb li {
+    align-items: center;
+    display: flex;
 }
 
-/* Link */
-.sk.breadcrumb a {
-    color: #4183C4;
+.breadcrumb li:first-child a {
+    padding-left: 0;
 }
 
-.sk.breadcrumb a:hover {
-    color: #1e70bf;
+.breadcrumb li.is-active a {
+    color: #363636;
+    cursor: default;
+    pointer-events: none;
 }
 
-/* Icon Divider */
-.sk.breadcrumb .icon.divider {
-    font-size: 0.85714286em;
-    vertical-align: baseline;
+.breadcrumb li + li::before {
+    color: #b5b5b5;
+    content: "\0002f";
 }
 
-/* Section */
-.sk.breadcrumb a.section {
-    cursor: pointer;
-}
-
-.sk.breadcrumb .section {
-    display: inline-block;
+.breadcrumb ul,
+.breadcrumb ol {
     margin: 0;
     padding: 0;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-/* Loose Coupling */
-.sk.breadcrumb.segment {
-    display: inline-block;
-    padding: 0.78571429em 1em;
+.breadcrumb .icon:first-child {
+    margin-right: 0.5em;
 }
 
-
-/*******************************
-            States
-*******************************/
-
-.sk.breadcrumb .active.section {
-    font-weight: bold;
+.breadcrumb .icon:last-child {
+    margin-left: 0.5em;
 }
 
-
-/*******************************
-           Variations
-*******************************/
-
-.sk.mini.breadcrumb {
-    font-size: 0.78571429rem;
+.breadcrumb.is-centered ol,
+.breadcrumb.is-centered ul {
+    justify-content: center;
 }
 
-.sk.tiny.breadcrumb {
-    font-size: 0.85714286rem;
+.breadcrumb.is-right ol,
+.breadcrumb.is-right ul {
+    justify-content: flex-end;
 }
 
-.sk.small.breadcrumb {
-    font-size: 0.92857143rem;
+.breadcrumb.has-arrow-separator li + li::before {
+    content: "\02192";
 }
 
-.sk.breadcrumb {
-    font-size: 1rem;
+.breadcrumb.has-bullet-separator li + li::before {
+    content: "\02022";
 }
 
-.sk.large.breadcrumb {
-    font-size: 1.14285714rem;
+.breadcrumb.has-dot-separator li + li::before {
+    content: "\000b7";
 }
 
-.sk.big.breadcrumb {
-    font-size: 1.28571429rem;
+.breadcrumb.has-succeeds-separator li + li::before {
+    content: "\0227B";
 }
-
-.sk.huge.breadcrumb {
-    font-size: 1.42857143rem;
-}
-
-.sk.massive.breadcrumb {
-    font-size: 1.71428571rem;
-}
-
-
-
 
